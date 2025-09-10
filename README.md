@@ -1,8 +1,10 @@
 # 🚀 Universal Asynchronous Receiver/Transmitter (UART)
 
-                               [![Verilog](https://img.shields.io/badge/HDL-Verilog-blue.svg)]()
-                               [![FPGA](https://img.shields.io/badge/Target-FPGA-green.svg)]()
-                               [![Simulation](https://img.shields.io/badge/Tool-ModelSim-orange.svg)]()
+<h1 class="center-text">
+ [![Verilog](https://img.shields.io/badge/HDL-Verilog-blue.svg)]()
+ [![FPGA](https://img.shields.io/badge/Target-FPGA-green.svg)]()
+ [![Simulation](https://img.shields.io/badge/Tool-ModelSim-orange.svg)]()
+</h1>
 
 A **Verilog HDL** implementation of a **UART** system including **Transmitter, Receiver, Baud Generator, FIFO**, and a **Top module**.  
 The design is fully parameterized, modular, and tested on a 50 MHz clock source.
