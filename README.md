@@ -25,12 +25,27 @@ It is designed for FPGA/ASIC projects and verified through simulation.
 ---
 
 ## ⚙️ Parameters
-```verilog
-parameter BAUD_RATE = 115200;
-parameter STOP_BIT  = 16;    // stop ticks
-parameter DATA_BITS = 8;     // bits per frame
-parameter DIVISOR   = 27;    // baud divisor (50 MHz / BAUD_RATE)
-parameter FIFO      = 4;     // FIFO depth
+```verilog```
+```parameter BAUD_RATE = 115200;```
+```parameter STOP_BIT  = 16;    // stop ticks```
+```parameter DATA_BITS = 8;     // bits per frame```
+```parameter DIVISOR   = 27;    // baud divisor (50 MHz / BAUD_RATE)```
+```parameter FIFO      = 4;     // FIFO depth```
 
+---
 
 ## 📂 Repository Structure
+├── transmitter.v
+│   ├── receiver.v
+│   ├── baud_gen.v
+│   ├── fifo.v
+│   └── uart.v 
+|   └── tb_uart.v
+ └── Readme.md
+
+ ---
+
+ ## 👨‍💻 Author
+**Muhammad Taha Ansari**  
+📌 Electrical Engineering Student @ NED University  
+🔗 [GitHub](https://github.com/Muhammad-Taha-Ansari) | [LinkedIn](https://linkedin.com/in/muhammad-taha-b93716299/)
